@@ -7,6 +7,6 @@
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=.;Initial Catalog=WideWorldImporters;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      DTS:ConnectionString="Initial Catalog=WideWorldImporters;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-{E8464E14-D126-4B86-AFFB-295B0D3506F4}WWI_Source_DB;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>
