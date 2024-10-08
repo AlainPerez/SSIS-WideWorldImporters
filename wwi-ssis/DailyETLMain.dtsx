@@ -12,8 +12,8 @@
   DTS:ObjectName="DailyETLMain"
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
-  DTS:VersionBuild="63"
-  DTS:VersionGUID="{6F2B03DD-DCD3-4F34-82EC-4C61507FED61}">
+  DTS:VersionBuild="64"
+  DTS:VersionGUID="{F189520D-3C01-48A7-9CAF-75D8275BF701}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -12065,18 +12065,18 @@ WITH RESULT SETS
           TopLeft="204.500000000001,223.433333333333" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="350.000000000001,191.5">
+          TopLeft="350.166666666668,190.833333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,31.9333333333333"
+              EndConnector="0,32.5999999999996"
               Start="0,0"
-              End="0,24.4333333333333">
+              End="0,25.0999999999996">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.4333333333333" />
+                    End="0,25.0999999999996" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
