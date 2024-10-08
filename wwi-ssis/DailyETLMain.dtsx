@@ -12,8 +12,8 @@
   DTS:ObjectName="DailyETLMain"
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
-  DTS:VersionBuild="65"
-  DTS:VersionGUID="{76024FA8-21D8-4C3F-982C-D2500BF4B8D1}">
+  DTS:VersionBuild="67"
+  DTS:VersionGUID="{E8FB5C7E-13B6-410F-82F5-889A544D1C59}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -10097,27 +10097,27 @@ WITH RESULT SETS
           Id="Package\Ensure Date Dimension includes current year"
           TopLeft="204.500000000001,297.366666666667" />
         <NodeLayout
-          Size="252,41.6"
+          Size="252,41.3333333333334"
           Id="Package\Load City Dimension\Extract Updated City Data to Staging"
           TopLeft="5.50000000000006,413.5" />
         <NodeLayout
-          Size="217.6,41.6"
+          Size="217.333333333334,41.3333333333334"
           Id="Package\Load City Dimension\Get Last City ETL Cutoff Time"
           TopLeft="22.5000000000001,311.5" />
         <NodeLayout
-          Size="156,41.6"
+          Size="156,41.3333333333334"
           Id="Package\Load City Dimension\Get Lineage Key"
           TopLeft="53.5,107.5" />
         <NodeLayout
-          Size="196,41.6"
+          Size="196,41.3333333333334"
           Id="Package\Load City Dimension\Migrate Staged City Data"
           TopLeft="33.5000000000001,515.5" />
         <NodeLayout
-          Size="184,41.6"
+          Size="184,41.3333333333334"
           Id="Package\Load City Dimension\Set TableName to City"
           TopLeft="39.5,5.5" />
         <NodeLayout
-          Size="183.2,41.6"
+          Size="183.333333333334,41.3333333333334"
           Id="Package\Load City Dimension\Truncate City_Staging"
           TopLeft="40,209.5" />
         <EdgeLayout
@@ -10139,9 +10139,7 @@ WITH RESULT SETS
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10163,9 +10161,7 @@ WITH RESULT SETS
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10187,9 +10183,7 @@ WITH RESULT SETS
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10211,9 +10205,7 @@ WITH RESULT SETS
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10235,15 +10227,13 @@ WITH RESULT SETS
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="291.2,612"
+          PanelSize="291.333333333334,612"
           Size="200.666666666667,42.6666666666667"
           Id="Package\Load City Dimension"
           TopLeft="204.500000000001,371.3" />
@@ -10394,7 +10384,7 @@ WITH RESULT SETS
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="291.2,612.8"
+          PanelSize="291.333333333334,612.8"
           Size="291.333333333334,43.3333333333334"
           Id="Package\Load Customer Dimension"
           TopLeft="204.500000000001,446.233333333333" />
@@ -10847,7 +10837,7 @@ WITH RESULT SETS
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="291.2,613"
+          PanelSize="291.333333333334,613"
           Size="291.333333333334,43.3333333333334"
           Id="Package\Load Order Fact"
           TopLeft="204.500000000001,970.766666666666" />
@@ -11149,7 +11139,7 @@ WITH RESULT SETS
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="291.2,612.8"
+          PanelSize="291.333333333334,612.8"
           Size="291.333333333334,43.3333333333334"
           Id="Package\Load Purchase Fact"
           TopLeft="204.500000000001,1045.7" />
@@ -11451,7 +11441,7 @@ WITH RESULT SETS
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="291.2,613"
+          PanelSize="291.333333333334,613"
           Size="291.333333333334,43.3333333333334"
           Id="Package\Load Stock Holding Fact"
           TopLeft="204.500000000001,1195.56666666667" />
@@ -11753,7 +11743,7 @@ WITH RESULT SETS
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="291.2,613"
+          PanelSize="291.333333333334,613"
           Size="291.333333333334,43.3333333333334"
           Id="Package\Load Supplier Dimension"
           TopLeft="204.500000000001,745.966666666666" />
