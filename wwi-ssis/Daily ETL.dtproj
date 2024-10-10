@@ -339,10 +339,10 @@
                 <SSIS:Property SSIS:Name="Name">DailyETLMain</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">63</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">67</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{6F2B03DD-DCD3-4F34-82EC-4C61507FED61}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{E8FB5C7E-13B6-410F-82F5-889A544D1C59}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
